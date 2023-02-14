@@ -1,0 +1,55 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>Logan’s Blog Post Thing.md</title><style></style></head><body id="preview">
+<h1 class="code-line" data-line-start=0 data-line-end=1><a id="Logans_Blog_Post_Thing_0"></a>Logan’s Blog Post Thing</h1>
+<p class="has-line-data" data-line-start="2" data-line-end="3">Welcome to my blog post thing that I made on Dillinger or whatever. Here, I will present my first script and why I made it.</p>
+<h2 class="code-line" data-line-start=4 data-line-end=5><a id="The_Script_4"></a>The Script</h2>
+<blockquote>
+<p class="has-line-data" data-line-start="5" data-line-end="14">#!/bin/bash<br>
+mkdir newProject<br>
+touch newProject/index.html<br>
+cd newProject<br>
+mkdir css js img<br>
+touch css/style.css<br>
+touch css/modern-normalize.css<br>
+touch js/page.js<br>
+touch <a href="http://readme.md">readme.md</a></p>
+</blockquote>
+<blockquote>
+<p class="has-line-data" data-line-start="15" data-line-end="26">echo “&lt;!DOCTYPE HTML&gt;” &gt;&gt; index.html<br>
+echo “&lt;html&gt;” &gt;&gt; index.html<br>
+echo “&lt;head&gt;” &gt;&gt; index.html<br>
+echo “&lt;meta charset=“UTF-8”&gt;” &gt;&gt; index.html<br>
+echo “&lt;title&gt;Template&lt;/title&gt;” &gt;&gt; index.html<br>
+echo “&lt;link href=“css/style.css” rel=“stylesheet”&gt;” &gt;&gt; index.html<br>
+echo “&lt;link rel=“preconnect” href=”<a href="https://fonts.googleapis.com">https://fonts.googleapis.com</a>“&gt;” &gt;&gt; index.html<br>
+echo “&lt;link rel=“preconnect” href=”<a href="https://fonts.gstatic.com">https://fonts.gstatic.com</a>&quot; crossorigin&gt;&quot; &gt;&gt; index.html<br>
+echo “&lt;link href=”<a href="https://fonts.googleapis.com/css2?family=Roboto&amp;display=swap">https://fonts.googleapis.com/css2?family=Roboto&amp;display=swap</a>&quot; rel=“stylesheet”&gt;&quot; &gt;&gt; index.html<br>
+echo “&lt;!-- modern normalize for cross-browser compatibility --&gt;” &gt;&gt; index.html<br>
+echo “&lt;link href=“css/modern-normalize.css” rel=“stylesheet”&gt;” &gt;&gt; index.html</p>
+</blockquote>
+<blockquote>
+<p class="has-line-data" data-line-start="27" data-line-end="32">echo &quot; &lt;/head&gt;&quot; &gt;&gt; index.html<br>
+echo &quot; &lt;body&gt;&quot; &gt;&gt; index.html<br>
+echo &quot; &lt;h1&gt;If this is red, it’s working.&lt;/h1&gt;&quot; &gt;&gt; index.html<br>
+echo &quot; &lt;/body&gt;&quot; &gt;&gt; index.html<br>
+echo “&lt;/html&gt;” &gt;&gt; index.html</p>
+</blockquote>
+<blockquote>
+<p class="has-line-data" data-line-start="33" data-line-end="34">echo “*, ::before, ::after {box-sizing: border-box;}html {line-height: 1.15;-webkit-text-size-adjust: 100%;-moz-tab-size: 4;tab-size: 4;}body {margin: 0;font-family: system-ui, -apple-system, ‘Segoe UI’, Roboto, Helvetica, Arial, sans-serif, ‘Apple Color Emoji’, ‘Segoe UI Emoji’;}hr {height: 0;color: inherit;}abbr[title] {text-decoration: underline dotted;}b, strong {font-weight: bolder;}code, kbd, samp, pre {font-family: ui-monospace, SFMono-Regular, Consolas, ‘Liberation Mono’, Menlo, monospace;font-size: 1em;}small {font-size: 80%;}sub, sup {font-size: 75%;line-height: 0;position: relative;vertical-align: baseline;}sub {bottom: -0.25em;}sup {top: -0.5em;}table {text-indent: 0;border-color: inherit;}button, input, optgroup, select, textarea {font-family: inherit;font-size: 100%;line-height: 1.15;margin: 0;}button, select {text-transform: none;}button, [type=‘button’], [type=‘reset’], [type=‘submit’] {-webkit-appearance: button;}::-moz-focus-inner {border-style: none;padding: 0;}:-moz-focusring {outline: 1px dotted ButtonText;}:-moz-ui-invalid {box-shadow: none;}legend {padding: 0;}progress {vertical-align: baseline;}::-webkit-inner-spin-button, ::-webkit-outer-spin-button {height: auto;}[type=‘search’] {-webkit-appearance: textfield;outline-offset: -2px;}::-webkit-search-decoration {-webkit-appearance: none;}::-webkit-file-upload-button {-webkit-appearance: button;font: inherit;}summary {display: list-item;}” &gt;&gt; css/modern-normalize.css</p>
+</blockquote>
+<blockquote>
+<p class="has-line-data" data-line-start="35" data-line-end="40">echo “body {” &gt;&gt; css/style.css<br>
+echo “font-family: ‘Roboto’, sans-serif;” &gt;&gt; css/style.css<br>
+echo “font-size: 1rem;” &gt;&gt; css/style.css<br>
+echo “h1 {color:red;}” &gt;&gt; css/style.css<br>
+echo “}” &gt;&gt; css/style.css</p>
+</blockquote>
+<blockquote>
+<p class="has-line-data" data-line-start="41" data-line-end="44">open index.html<br>
+code index.html<br>
+code modern-normalize.css</p>
+</blockquote>
+<h2 class="code-line" data-line-start=45 data-line-end=46><a id="Blog_Post_45"></a>Blog Post</h2>
+<p class="has-line-data" data-line-start="47" data-line-end="48">As a student who feels he needs to take some form of coding class to survive in the work world, I really enjoy having to do <em>less</em> work if I can. Since I’m not one for coding, personally, I’d prefer to get my assignments done as efficiently as possible so I don’t have to think about coding any longer than I have to.</p>
+<p class="has-line-data" data-line-start="49" data-line-end="50">This starter shell script is the beginning of my efficiency adventures. Since I have to make a fair amount of projects for these classes, life would be a lot easier if I could simply run a single command and have the boilerplate code for a project given to me. This way, I don’t have to manually right-click and create new files and folders by hand.</p>
+<p class="has-line-data" data-line-start="51" data-line-end="52">It might be a simple script but anything that takes a little bit of time off my hands is worth doing in my book. I see myself using this script often, assuming it works! ;)</p>
+</body></html>
