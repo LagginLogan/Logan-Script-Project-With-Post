@@ -1,0 +1,7 @@
+As a student who feels he needs to take some form of coding class to survive in the work world, I really enjoy having to do *less* work if I can. Since I'm not one for coding, personally, I'd prefer to get my assignments done as efficiently as possible so I don't have to think about coding any longer than I have to.
+
+This starter shell script is the beginning of my efficiency adventures. Since I have to make a fair amount of projects for these classes, life would be a lot easier if I could simply run a single command and have the boilerplate code for a project given to me. This way, I don't have to manually right-click and create new files and folders by hand.
+
+The script begins by creating a folder named "newProject." Then, it adds the css, img, and js folders. Finally, it adds and index and the readme file, just in case. Then, the script adds basic boilerplate code to the index, as well as some simple test text. After, it adds a little to the css file to turn the text red and set the font to a nice, basic Roboto. Just for good measure, the script also creates a file for modern-normalize and adds its content in one, giant line. Now I have a basic project folder to start using. I just have to remember to rename the folder to whatever I'd want the project to be called, of course.
+
+It might be a simple script but anything that takes a little bit of time off my hands is worth doing in my book. I see myself using this script often, assuming it works! ;)
